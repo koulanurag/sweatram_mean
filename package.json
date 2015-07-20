@@ -1,0 +1,14 @@
+{
+  "name": "dashboard-app",
+  "version": "0.0.0",
+  "description": "POC for dashboard app",
+  "scripts": {
+    "start": "npm install"
+  },
+  "author": "Anurag Koul",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.9.7",
+    "mongoose": "^3.8.23"
+  }
+}

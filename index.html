@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <title>DashBoard App</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/layout.css">
+    
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome-animation.min.css">
+
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    
+</head>
+<body data-ng-app="ngDashboard">
+    
+    <header data-ui-view='header'></header>
+    <div data-ui-view='default'></div>
+    <footer data-ui-view='footer'></footer>
+    
+    
+    <script src="js/angular/lib/angular.min.js"></script>
+    <script src="js/angular/lib/angular-ui-router.min.js"></script>
+    
+    <script src="js/angular/app.js"></script>
+    <script src="js/angular/router/config.js"></script>  
+    <script src="js/angular/controllers/dashboardCtrl.js"></script>
+    
+</body>
+</html>
