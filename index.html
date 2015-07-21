@@ -13,12 +13,17 @@
     <script src="js/lib/jquery.min.js"></script>
     <script src="js/lib/bootstrap.min.js"></script>
     
+    <!--draggable css and js -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    
 </head>
 <body data-ng-app="ngDashboard">
     
-    <header data-ui-view='header'></header>
+    <div data-ui-view='header'></div>
     <div data-ui-view='default'></div>
-    <footer data-ui-view='footer'></footer>
+    <div data-ui-view='footer'></div>
     
     
     <script src="js/angular/lib/angular.min.js"></script>
@@ -27,6 +32,7 @@
     <script src="js/angular/app.js"></script>
     <script src="js/angular/router/config.js"></script>  
     <script src="js/angular/controllers/dashboardCtrl.js"></script>
+    <script src="js/angular/controllers/headerCtrl.js"></script>
     
 </body>
 </html>

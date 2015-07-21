@@ -149,6 +149,9 @@ a{
     padding-right:50px;
     padding-left:50px;
 }
+.carousel-header * {
+    display: inline;
+}
 .navbar{
     background-color: white;
     border-bottom: 2px solid;
@@ -170,4 +173,67 @@ footer{
 }
 .collapsed .icon-alt{
     display: inline-block !important;
+}
+
+.ui-draggable-dragging {
+    border: 1px dashed;
+}
+
+.custom-select{
+  background-color: rgb(255, 255, 255);
+  border: 1px solid;
+  border-radius: 7px;
+  padding: 3px;
+}
+.carousel-header .window-tools {
+    padding-top:10px;    
+}
+
+.window-tools a{
+    color: grey;
+    padding-left: 8px;
+}
+
+
+.active-nav {
+  border-color: rgb(89, 176, 240) !important;
+  border-bottom: 4px solid;
+}
+
+.fill select{
+    margin: auto;
+    display: block;
+
+}
+.header-tool-set{
+    padding: 10px;
+}
+.header-tool-set a{
+    color: grey;
+}
+.header-tool-set .custom-icon{
+    padding:0px;
+    margin-right: 5px;
+}
+.pop-up{
+  margin: auto;
+  position: fixed !important;
+  z-index: 10;
+  left: 25%;
+  top: 25%;
+  width: 50%;
+}
+
+.panel-footer{
+   background-color: white !important; 
+   border-top: 0px !important; 
+}
+.panel-custom-footer{
+  bottom: 0%;
+  position: absolute;
+  width: 100%;
+  margin-left: -20px;
+}
+.in.panel-body {
+  min-height: 204px;
 }
