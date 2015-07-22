@@ -251,9 +251,6 @@ footer{
     float: left;
 }
 
-.service-view {
-  min-height: 300px;
-}
 .item-separator {
   border-right: 1px dashed;
 }
