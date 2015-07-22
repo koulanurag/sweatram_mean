@@ -257,3 +257,7 @@ footer{
 .item-separator {
   border-right: 1px dashed;
 }
+iframe{
+    width: 100%;
+    height: 100%;
+}
