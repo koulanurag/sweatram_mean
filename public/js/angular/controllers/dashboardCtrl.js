@@ -1,5 +1,14 @@
 ngDashboard.controller('dashboardCtrl', ['$scope','$rootScope','$timeout',
     function ($scope, $rootScope,$timeout) {
+        
+        $scope.showServiceView = false;
+        $scope.selectedService={};
+        $scope.showService = function(service){
+            $scope.showServiceView = true;
+            $scope.selectedService = service;
+        }
+        
+        
         $scope.alerts =["Alert Message 1","Alert Message 2","Alert Message 3"];
         $scope.timePeriod=['Quaterly','Annual']
         $scope.servicePortifolioData = [{'title':'EMA','description':'Enterprise Architechiture Modeling Systems','value':'138$','increase':true},

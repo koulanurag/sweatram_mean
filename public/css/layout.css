@@ -80,7 +80,7 @@ body {
 /* custom styles */
 
 #summaryCarousel{
-    height: 400px;
+  min-height: 300px;
 }
 .dashBoardcontent{
     width: 80%;
@@ -200,10 +200,15 @@ footer{
   border-bottom: 4px solid;
 }
 
-.fill select{
+.item {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+    padding: 20px;
+}
+.item input,select{
     margin: auto;
     display: block;
-
 }
 .header-tool-set{
     padding: 10px;
@@ -236,4 +241,19 @@ footer{
 }
 .in.panel-body {
   min-height: 204px;
+}
+
+.small-area .panel{
+    width: 46%;
+    margin-left: 20px;
+    float: left;
+    margin-right: 20px;
+    float: left;
+}
+
+.service-view {
+  min-height: 300px;
+}
+.item-separator {
+  border-right: 1px dashed;
 }
